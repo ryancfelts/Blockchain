@@ -1,0 +1,8 @@
+=============== Apr 13, 2021 (EDT) ===============
+18:23:31.767825 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:23:31.772827 db@open opening
+18:23:31.772827 version@stat F·[] S·0B[] Sc·[]
+18:23:31.775837 db@janitor F·2 G·0
+18:23:31.776826 db@open done T·3.9992ms
+18:23:31.787143 db@close closing
+18:23:31.787672 db@close done T·529.4µs

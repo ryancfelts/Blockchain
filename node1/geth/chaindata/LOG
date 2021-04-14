@@ -1,0 +1,35 @@
+=============== Apr 13, 2021 (EDT) ===============
+18:23:31.720807 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:23:31.725818 db@open opening
+18:23:31.729809 version@stat F·[] S·0B[] Sc·[]
+18:23:31.732820 db@janitor F·2 G·0
+18:23:31.732820 db@open done T·7.0027ms
+18:23:31.750813 db@close closing
+18:23:31.751813 db@close done T·999.9µs
+=============== Apr 13, 2021 (EDT) ===============
+18:27:52.998065 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:27:52.999066 version@stat F·[] S·0B[] Sc·[]
+18:27:52.999066 db@open opening
+18:27:52.999066 journal@recovery F·1
+18:27:53.005581 journal@recovery recovering @1
+18:27:53.008581 memdb@flush created L0@2 N·15 S·1021B "2\xc3\xe4..\xe3\x17>,v4":"\xff\xba\xd2..\x91p\xa9,v5"
+18:27:53.016583 version@stat F·[1] S·1021B[1021B] Sc·[0.25]
+18:27:53.026585 db@janitor F·3 G·0
+18:27:53.026585 db@open done T·27.519ms
+18:27:53.139134 table@compaction range L-1 "a":"b"
+18:27:53.139134 table@compaction L0·1 -> L1·0 S·1021B Q·21
+18:27:53.143245 table@build created L1@5 N·15 S·1021B "2\xc3\xe4..\xe3\x17>,v4":"\xff\xba\xd2..\x91p\xa9,v5"
+18:27:53.162383 version@stat F·[0 1] S·1021B[0B 1021B] Sc·[0.00 0.00]
+18:27:53.166076 table@compaction committed F~ S~ Ke·0 D·0 T·26.9419ms
+18:27:53.175208 table@compaction range L-1 "o":"p"
+=============== Apr 13, 2021 (EDT) ===============
+18:31:55.032302 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:31:55.032821 version@stat F·[0 1] S·1021B[0B 1021B] Sc·[0.00 0.00]
+18:31:55.032821 db@open opening
+18:31:55.033353 journal@recovery F·1
+18:31:55.041169 journal@recovery recovering @3
+18:31:55.045482 memdb@flush created L0@6 N·10 S·725B "Dat..ion,v17":"unc..own,v23"
+18:31:55.054521 version@stat F·[1 1] S·1KiB[725B 1021B] Sc·[0.25 0.00]
+18:31:55.062523 db@janitor F·5 G·1
+18:31:55.062523 db@janitor removing table-2
+18:31:55.062523 db@open done T·29.702ms
